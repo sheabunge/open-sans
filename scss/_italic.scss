@@ -1,0 +1,13 @@
+/* Regular 400 Italic
+ * -------------------------- */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$open-sans-path}/Italic/OpenSans-Italic.eot');
+  src: url('#{$open-sans-path}/Italic/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+       url('#{$open-sans-path}/Italic/OpenSans-Italic.woff') format('woff'),
+       url('#{$open-sans-path}/Italic/OpenSans-Italic.ttf') format('truetype'),
+       url('#{$open-sans-path}/Italic/OpenSans-Italic.svg#OpenSansItalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "open-sans",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bungeshea/open-sans",
+  "authors": [
+    "Shea Bunge <info@bungeshea.com>"
+  ],
+  "description": "SCSS webfont kit for the awesome Open Sans webfont.",
+  "main": "css/open-sans.css",
+  "keywords": [
+    "open-sans",
+    "webfont",
+    "font-face",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "bower_components",
+    ".sass-cache",
+    ".gitignore",
+    "README.md",
+    "node_modules",
+    "npm-debug.log",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}

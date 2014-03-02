@@ -1,0 +1,13 @@
+/* Light 300
+ * -------------------------- */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$open-sans-path}/Light/OpenSans-Light.eot');
+  src: url('#{$open-sans-path}/Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('#{$open-sans-path}/Light/OpenSans-Light.woff') format('woff'),
+       url('#{$open-sans-path}/Light/OpenSans-Light.ttf') format('truetype'),
+       url('#{$open-sans-path}/Light/OpenSans-Light.svg#OpenSansLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}

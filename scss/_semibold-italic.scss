@@ -1,0 +1,13 @@
+/* Semi-Bold 600 Italic
+ * -------------------------- */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$open-sans-path}/SemiboldItalic/OpenSans-SemiboldItalic.eot');
+  src: url('#{$open-sans-path}/SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+       url('#{$open-sans-path}/SemiboldItalic/OpenSans-SemiboldItalic.woff') format('woff'),
+       url('#{$open-sans-path}/SemiboldItalic/OpenSans-SemiboldItalic.ttf') format('truetype'),
+       url('#{$open-sans-path}/SemiboldItalic/OpenSans-SemiboldItalic.svg#OpenSansSemiboldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}

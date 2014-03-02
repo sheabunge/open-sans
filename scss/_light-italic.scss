@@ -1,0 +1,13 @@
+/* Light 300 Italic
+ * -------------------------- */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.eot');
+  src: url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+       url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.woff') format('woff'),
+       url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.ttf') format('truetype'),
+       url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.svg#OpenSansLightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
