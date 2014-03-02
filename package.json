@@ -24,6 +24,7 @@
     "grunt": "~0.4.2",
     "grunt-sass": "~0.11.0",
     "grunt-contrib-cssmin": "~0.9.0",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-bump": "0.0.13"
   }
 }

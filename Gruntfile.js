@@ -26,6 +26,14 @@ module.exports = function(grunt) {
 					'css/open-sans.min.css': ['css/open-sans.css']
 				}
 			}
+		},
+
+		bump: {
+			scripts: {
+				files: ["package.json", "bower.json"],
+				commitFiles: ["-a"],
+				push: false
+			}
 		}
 
 	});
