@@ -8,11 +8,11 @@ $open-sans-path: "../fonts" !default;
 @mixin open-sans-font-face( $font, $svgid, $weight: normal, $style: normal ) {
 	@font-face {
 	  font-family: 'Open Sans';
-	  src: url('#{$open-sans-path}/#{$font}/open-sans-#{$font}-webfont.eot');
-	  src: url('#{$open-sans-path}/#{$font}/open-sans-#{$font}-webfont.eot?#iefix') format('embedded-opentype'),
-	       url('#{$open-sans-path}/#{$font}/open-sans-#{$font}-webfont.woff') format('woff'),
-	       url('#{$open-sans-path}/#{$font}/open-sans-#{$font}-webfont.ttf') format('truetype'),
-	       url('#{$open-sans-path}/#{$font}/open-sans-#{$font}-webfont.svg\##{$svgid}') format('svg');
+	  src: url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.eot');
+	  src: url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.eot?#iefix') format('embedded-opentype'),
+	       url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.woff') format('woff'),
+	       url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.ttf') format('truetype'),
+	       url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.svg\##{$svgid}') format('svg');
 	  font-weight: $weight;
 	  font-style: $style;
 	}
