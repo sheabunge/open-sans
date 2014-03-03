@@ -3,11 +3,11 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.eot');
-  src: url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.woff') format('woff'),
-       url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.ttf') format('truetype'),
-       url('#{$open-sans-path}/LightItalic/OpenSans-LightItalic.svg#OpenSansLightItalic') format('svg');
+  src: url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.eot');
+  src: url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.woff') format('woff'),
+       url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.ttf') format('truetype'),
+       url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.svg#OpenSansLightItalic') format('svg');
   font-weight: 300;
   font-style: italic;
 }

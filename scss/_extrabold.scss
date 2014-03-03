@@ -3,11 +3,11 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/ExtraBold/OpenSans-ExtraBold.eot');
-  src: url('#{$open-sans-path}/ExtraBold/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/ExtraBold/OpenSans-ExtraBold.woff') format('woff'),
-       url('#{$open-sans-path}/ExtraBold/OpenSans-ExtraBold.ttf') format('truetype'),
-       url('#{$open-sans-path}/ExtraBold/OpenSans-ExtraBold.svg#OpenSansExtrabold') format('svg');
+  src: url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.eot');
+  src: url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.woff') format('woff'),
+       url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.ttf') format('truetype'),
+       url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.svg#OpenSansExtrabold') format('svg');
   font-weight: 800;
   font-style: normal;
 }

@@ -3,11 +3,11 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/Regular/OpenSans-Regular.eot');
-  src: url('#{$open-sans-path}/Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/Regular/OpenSans-Regular.woff') format('woff'),
-       url('#{$open-sans-path}/Regular/OpenSans-Regular.ttf') format('truetype'),
-       url('#{$open-sans-path}/Regular/OpenSans-Regular.svg#OpenSansRegular') format('svg');
+  src: url('#{$open-sans-path}/regular/open-sans-regular-webfont.eot');
+  src: url('#{$open-sans-path}/regular/open-sans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('#{$open-sans-path}/regular/open-sans-regular-webfont.woff') format('woff'),
+       url('#{$open-sans-path}/regular/open-sans-regular-webfont.ttf') format('truetype'),
+       url('#{$open-sans-path}/regular/open-sans-regular-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
