@@ -1,13 +1,8 @@
 /* Light 300 Italic
  * -------------------------- */
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.eot');
-  src: url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.woff') format('woff'),
-       url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.ttf') format('truetype'),
-       url('#{$open-sans-path}/light-italic/open-sans-light-italic-webfont.svg#OpenSansLightItalic') format('svg');
-  font-weight: 300;
-  font-style: italic;
-}
+@include open-sans-font-face(
+	'light-italic',
+	'OpenSansLightItalic',
+	300, italic
+);

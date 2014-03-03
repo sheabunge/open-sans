@@ -1,13 +1,4 @@
 /* Semibold 600
  * -------------------------- */
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/semibold/open-sans-semibold-webfont.eot');
-  src: url('#{$open-sans-path}/semibold/open-sans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/semibold/open-sans-semibold-webfont.woff') format('woff'),
-       url('#{$open-sans-path}/semibold/open-sans-semibold-webfont.ttf') format('truetype'),
-       url('#{$open-sans-path}/semibold/open-sans-semibold-webfont.svg#OpenSansSemibold') format('svg');
-  font-weight: 600;
-  font-style: normal;
-}
+@include open-sans-font-face( 'semibold', 'OpenSansSemibold', 600 );

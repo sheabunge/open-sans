@@ -1,13 +1,8 @@
 /* Extra-Bold 800 Italic
  * -------------------------- */
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/extrabold-italic/open-sans-extrabold-italic-webfont.eot');
-  src: url('#{$open-sans-path}/extrabold-italic/open-sans-extrabold-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/extrabold-italic/open-sans-extrabold-italic-webfont.woff') format('woff'),
-       url('#{$open-sans-path}/extrabold-italic/open-sans-extrabold-italic-webfont.ttf') format('truetype'),
-       url('#{$open-sans-path}/extrabold-italic/open-sans-extrabold-italic-webfont.svg#OpenSansExtraboldItalic') format('svg');
-  font-weight: 800;
-  font-style: italic;
-}
+ @include open-sans-font-face(
+ 	'extrabold-italic',
+ 	'OpenSansExtraboldItalic',
+ 	800, italic
+ );

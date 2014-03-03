@@ -1,13 +1,4 @@
 /* Regular 400
  * -------------------------- */
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/regular/open-sans-regular-webfont.eot');
-  src: url('#{$open-sans-path}/regular/open-sans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/regular/open-sans-regular-webfont.woff') format('woff'),
-       url('#{$open-sans-path}/regular/open-sans-regular-webfont.ttf') format('truetype'),
-       url('#{$open-sans-path}/regular/open-sans-regular-webfont.svg#OpenSansRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+@include open-sans-font-face( 'regular', 'OpenSansRegular' );

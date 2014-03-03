@@ -1,13 +1,4 @@
-/* Extra-Bold 800
+/* Extrabold 800
  * -------------------------- */
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.eot');
-  src: url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.woff') format('woff'),
-       url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.ttf') format('truetype'),
-       url('#{$open-sans-path}/extrabold/open-sans-extrabold-webfont.svg#OpenSansExtrabold') format('svg');
-  font-weight: 800;
-  font-style: normal;
-}
+@include open-sans-font-face( 'extrabold', 'OpenSansExtrabold',	800 );

@@ -1,13 +1,4 @@
 /* Bold 700 Italic
  * -------------------------- */
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url('#{$open-sans-path}/bold-italic/open-sans-bold-italic-webfont.eot');
-  src: url('#{$open-sans-path}/bold-italic/open-sans-bold-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('#{$open-sans-path}/bold-italic/open-sans-bold-italic-webfont.woff') format('woff'),
-       url('#{$open-sans-path}/bold-italic/open-sans-bold-italic-webfont.ttf') format('truetype'),
-       url('#{$open-sans-path}/bold-italic/open-sans-bold-italic-webfont.svg#OpenSansBoldItalic') format('svg');
-  font-weight: bold;
-  font-style: italic;
-}
+ @include open-sans-font-face( 'bold-italic',	'OpenSansItalic',	bold, italic );
