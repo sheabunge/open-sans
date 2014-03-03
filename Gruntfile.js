@@ -29,10 +29,10 @@ module.exports = function(grunt) {
 		},
 
 		bump: {
-			scripts: {
-				files: ["package.json", "bower.json"],
-				commitFiles: ["-a"],
-				push: false
+			options: {
+				files: ['package.json', 'bower.json'],
+				commitFiles: ['package.json', 'bower.json'],
+				pushTo: 'origin'
 			}
 		}
 
