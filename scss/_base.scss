@@ -12,7 +12,7 @@ $open-sans-path: "../fonts" !default;
 	  src: url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.eot?#iefix') format('embedded-opentype'),
 	       url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.woff') format('woff'),
 	       url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.ttf') format('truetype'),
-	       url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.svg\##{$svgid}') format('svg');
+	       url('#{$open-sans-path}/#{$font}/opensans-#{$font}-webfont.svg##{$svgid}') format('svg');
 	  font-weight: $weight;
 	  font-style: $style;
 	}
